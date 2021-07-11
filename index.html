@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="grid.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Allerta Stencil' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Antic' rel='stylesheet'>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    
+
+    
+    <title>Spectrum-CETB</title>
+</head>
+<body>
+    
+    <!-----------SIDE-ICON---------->
+
+    <div class="icon-bar">
+        <a class="facebook" href="https://www.facebook.com/spCETrum"><i class="fab fa-facebook-f text-white"></i></a>
+        <a class="github" href="https://github.com/Spectrum-CETB"><i class="fab fa-github text-white"></i></a>
+        <a class="linkedin" href="https://www.linkedin.com/in/spectrum-cet-3b71431b1/"><i class="fab fa-linkedin-in text-white"></i></a>
+        <a class="instagram" href="https://www.instagram.com/spectrum.cetb/?hl=en"><i class="fab fa-instagram text-white"></i></a>
+    </div>
+
+
+
+<!-------------NavBar--------------------->
+      <header>
+        
+        <a href="#homepage-image"><div class="logo-heading-box">
+          <img src= "img/spectrum.png" alt="Spectrum Logo" id="spectrum-logo">
+          <h1>Spectrum</h1>
+        </div>
+
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href= "welcome.php">Profile</a>
+            <a href="#our-wings-title">Our Wings</a>
+            <a href="#achievements-title">Achievements</a>
+            <a href="#events-title">Events</a>
+            <a href="#projects-title">Projects</a>
+            <a href="#blogs-title">Blogs</a>
+            <a href="#team-title">Our-Team</a>
+            <a href="#faq-title">FAQs</a>
+            
+          </div>
+        </div>
+  
+        <span style=" font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+        
+        <script>
+        function openNav() {
+          document.getElementById("myNav").style.height = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.height = "0%";
+        }
+        </script>
+
+
+
+      </a>
+              <ul>
+                  <li><a href= "welcome.php">Profile</a></li>
+                  <li><a href="#our-wings-title">Our Wings</a></li>
+                  <li><a href="#achievements-title">Achievements</a></li>
+                  <li><a href="#events-title">Events</a></li>
+                  <li><a href="#projects-title">Projects</a></li>
+                  <li><a href="#blogs-title">Blogs</a></li>
+                  <li><a href="#faq-title">FAQs</a></li>
+                  
+              </ul>
+      </header>
+
+<!-----------------HomePage------------------>
+         <section>
+            <img src= "img/spectrum-home.png" alt="" id="homepage-image">
+         </section>
+
+
+         <section>
+          <h2 id="about-us-title">ABOUT US</h2><hr>
+          <div id="about-us-box" >
+                
+              
+              <div id="about-us-description" class="col-sm-16 col-md-8"><p>
+              
+                SPECTRUM, Technical society of COLLEGE OF ENGINEERING AND TECHNOLOGY, BHUBANESWAR, a place for all technical enthusiasts to learn, discover and innovate new things in the field of Technology and Design. The name of the club "SPECTRUM", a contribution of our alumni of 2015 batch, is particularly used to describe the characteristic colors of visible light after passing through a prism, similarly students of CET consist of different skills within them and Spectrum acts like a prism, Spectrum recognises their skills helps them to strengthenit. <br><br>
+
+                This club was established by "Bikram Keshari Panda (2015 batch)". Spectrum got its recognition in the year 2016 and got its workspace, funding and other facilities. Primarily this was his idea to have an electronics society in our college but with the efforts of other members we established two other wings-Software and Design.The other seniors who had their valuable contribution for this initiative were: Ankit Mishra, Zighnesh Biswal, Abhishek Dash, Avinash Nayak, Tapan Kumar Pal, Krutikesh Sahoo, Abhilash Das.</div>
+              
+              </p>
+              <div id="about-us-image" class="col-sm-14 col-md-3"><img src= "img/About_us.png" alt=""></div>
+              </div>
+            </div>
+        </section>
+
+<!------------------content------------------->
+
+        
+        <section>
+            <h2 id="our-wings-title" class="title-heading">OUR WINGS</h2>
+            <div class="Our wings" >
+            <div id="our-wings-description" class="col-sm-14 col-ms-14" >
+                Our club SPECTRUM is so named as it provides us with different wings emitted by the hardwork from our members, showing homologous transitions between Hardware, Software and Designing. <br><br>
+
+                The HARDWARE team of the Club mainly focuses on VLSI, Embedded Systems and PCB Design. We have developed many projects with implementation and testing of circuits, components, systems, etc. <br><br>
+
+                The SOFTWARE team is continuously striving for growth in the domains of Web Development, App Development, Competitive Programming, Machine Learning and Data Science. Working as a team, inspiring each other we quickly develop viable solutions for a better outcome. <br><br>
+
+                The DESIGN Wing of our Club has proven their creativity in UI/UX Poster Designing. We believe visual communication is a major tool to enhance various creative projects.
+            </div>
+
+            <div class="flip-box">
+
+            <div id="flip-container" ontouchstart="this.classList.toggle('hover');">
+              <div class="flipper">
+                <div class="front"><h4>HARDWARE</h4></div>
+                <div class="back"><hr><P>VLSI</P><hr>
+                <P>EMBEDDED SYSTEM</P><hr>
+              <P>PCB DESIGN</P><hr>
+            </div>
+              </div>
+            </div>
+
+            <div id="flip-container" ontouchstart="this.classList.toggle('hover');">
+              <div class="flipper">
+                <div class="front"><h4>SOFTWARE</h4></div>
+                <div class="back"><hr><P>COMPETITIVE PROGRAMMING</P><hr>
+                <P>WEB DEVELOPMENT</P><hr>
+              <P>APP DEVELOPMENT</P><hr>
+            <P>MACHINE LEARNING</P><hr></div>
+              </div>
+            </div>
+
+            <div id="flip-container" ontouchstart="this.classList.toggle('hover');">
+              <div class="flipper">
+                <div class="front"><h4>DESIGN</h4></div>
+                <div class="back"><hr><P>UI/UX DESIGNING</P><hr>
+                <P>POSTER DESIGNING</P><hr></div>
+              </div>
+            </div>
+
+          </div>
+
+            
+        
+        </section>
+
+
+        <section>
+            <h2 id="achievements-title" class="title-heading" >ACHIEVEMENTS</h2>
+            <div id="achievements" >
+               <div id="achievement-description" class="col-sm-14 col-md-7">
+                   <ul>
+                        <li>Two groups of the club has qualified for the Texas Instruments India Innovation Challenge.</li> <br> 
+                        <li>Smart Toilet for physically challenged has been awarded fourth in a National Level Competition in India International Science Festival conducted by CSIR, 
+                             NIOT and IIT Madras</li> <br>
+                        <li>One group of the club has qualified for the Smart India Hackathon 2018</li> <br>
+                        <li>Three students of our club had been awarded 3rd in a hackathon conducted by Sankalp Semiconductors</li> <br>
+                    </ul>
+                    <button class="achievements-button">See all</button>
+                    
+                  </div>
+
+                  <div id="achievements-image" class="col-sm-14 col-md-3"><img src= "img/achievements.png" alt="" class="achievements-image"></div>
+                    
+                
+            </div>
+                
+        </section>
+
+
+        <section>
+            <div id="events" >
+            <h2 id="events-title" class="title-heading">EVENTS</h2>
+            <p> "There's no scarcity of opportunity to make a living at what you love. There is only a scarcity of resolve to make it happen."</p>
+            <div class="cards-container">
+            <!-- Event 1 -->
+                <div id="card" class="col-sm-14 col-md-3.5">
+                    <img src= "img/events1.jpg" alt="">
+                    
+                </div>
+
+            <!-- Event 2 -->
+                <div id="card" class="col-sm-14 col-md-3.5">
+                    <img src= "img/events2.jpg" alt="" width="300px" height="400px">
+            </div>
+            <!-- Event 3 -->
+    
+                <div id="card" class="col-sm-14 col-md-3.5">
+                    <img src= "img/events3.jpg" alt="" width="300px" height="400px">
+                    
+                </div>
+
+        </div>
+        <div class="button-box"><button class="events-button">See more</button></div>
+        </section>
+
+
+        <section>
+            <h2 id="projects-title" class="title-heading">PROJECTS</h2>
+            <div class="row">
+                <div id="column" class="col-sm-14 col-md-3">
+                  <div class="card">
+                      <img src= "img/blind.jpg" alt="">
+                    <h3>BHAAVANA</h3>
+                    <p>Device that helps physically impaired people to understand the emotions of the person they are talking to.</p>
+                  </div>
+                </div>
+              
+                <div id="column" class="col-sm-14 col-md-3">
+                  <div class="card">
+                    <img src=" img/toilet.jpg" alt="">
+                    <h3>Smart Toilet for senior citizens and patients</h3>
+                    <p>A semi automated toilet designed for elderly people and patients. This toilet helps them defecate and urinate with ease & reduces the filthy labour for the hospital authorities.Use ofEmbedded microcontroller Arduino Mega 2560 makes the system smart.</p>
+                  </div>
+                </div>
+                
+                <div id="column" class="col-sm-14 col-md-3">
+                  <div class="card">
+                    <img src=" img/bot.jpg" alt="">
+                    <h3>SUPPLY BOT</h3>
+                    <p>Robots help to deliver food and medicine aid in flood scenarios to the affected people in remote areas. Semi finalist at IIT bombay, Eyantra competition 2019-20.</p>
+                  </div>
+                </div>
+                
+
+                <div id="column" class="col-sm-14 col-md-3">
+                  <div class="card">
+                      <img src=" img/car.jpg" alt="">
+                    <h3>Ultrasonic Radar based Horn System</h3>
+                    <p>A noiseless horn system for the vehicles to communicate with each other using ultrasonic waves.</p>
+                  </div>
+                </div>
+              
+                <div id="column" class="col-sm-14 col-md-3">
+                  <div class="card">
+                    <img src=" img/friendly_medico.jpg" alt="">
+                    <h3>FRIENDLY-MEDICO</h3>
+                    <p>In this pandemic not everyone of us have the courage to go to hospitals and check our reports.This app take some short details and keep it in database. 
+                        Health data of a person can be accessed anytime and if doctor finds any issues they can directly contact and problems can be solved over phones.</p>
+                  </div>
+                </div>
+                
+                <div id="column" class="col-sm-14 col-md-3">
+                  <div class="card">
+                    <img src=" img/text.jpg" alt="">
+                    <h3>Extractive-Text-Summarization</h3>
+                    <p>A simple python program which finds the important sentences in a paragraph and can give them as the output.Quite useful while reading short summaries of news articles. Unlike machine learning models, this doesn't train but rather uses a graph based approach to rank the sentences based on their cosine similarities and give the desired output as a result.</p>
+                  </div>
+                </div>
+                
+              </div>
+
+              <div class="button-box"><button class="projects-button">See more</button></div>
+        </section>
+
+
+        <section>
+            <h2 id="blogs-title" class="title-heading">BLOGS</h2>
+            <div id="blogs" > 
+
+            
+
+            <div id="container" class="col-sm-14 col-md-3.5">
+                <div class="cards">
+                    <div class="box">
+                        <div class="content">
+                          <img src=" img/blog1.png" alt="">
+                            <h3>Autocorrect using NLP</h3>
+                            <p>In this era of Digitalization, almost every individual has a smartphone with them, may it be Android or iOS. The benefits of smartphone would be a never-ending list and we ain't going...</p>
+                            <a href="#">Read</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container" class="col-sm-14 col-md-3.5">
+                <div class="cards">
+                    <div class="box">
+                        <div class="content">
+                          <img src=" img/blog2.jpg" alt="">
+                            <h3>Can we Drink Sea Water?</h3>
+                            <p>We well know the fact that 70 per cent of the earth is covered with
+                                water. But only 2 to 3 per cent of it is freshwater. And the rest is saline and
+                                ocean-based. The freshwater quantity is...</p>
+                            <a href="#">Read</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container" class="col-sm-14 col-md-3.5">
+                <div class="cards">
+                    <div class="box">
+                        <div class="content">
+                          <img src=" img/blog3.png" alt="">
+                            <h3>Why do I love WebDev?</h3>
+                            <p>This post is for all the beginners or the newbies, who decided to start their journey in
+                                the IT world and still unaware or confused about various fields. In my point of view is...</p>
+                            <a href="#">Read</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="button-box"><a href="https://dev.to/spectrumcetb"><button class="blogs-button">See more</button></a></div>
+        </section>
+
+
+
+        <!-----------------------TEAMS--------------------------->
+        <section class="team">
+          <h2 id="team-title" class="title-heading">OUR TEAM</h2>
+
+        <p>"Alone we can do so little, Together we can do so much."</p>
+
+          <div class="container">
+      <div class="slides-box">
+        <div class=" img/mySlides">
+          <img src=" img/soumya.jpg" style="width:17%">
+          <img src=" img/pritish.jpg" style="width:17%">
+          <img src=" img/deepak.jpg" style="width:17%">
+          <img src=" img/shubam.jpg" style="width:17%">
+          <img src=" img/kshitij.jpg" style="width:17%">
+        </div>
+
+        <div class="mySlides">
+          <img src=" img/sanjana.jpg" style="width:17%">
+          <img src=" img/suchismita.jpg" style="width:17%">
+          <img src=" img/trideep.jpg" style="width:17%">
+          <img src=" img/abhishek.jpg" style="width:17%">
+          <img src=" img/asutosh.jpg" style="width:17%">
+        </div>
+
+        <div class="mySlides">
+          <img src=" img/rupesh.jpg" style="width:17%">
+          <img src=" img/suryansu.jpg" style="width:17%">
+          <img src=" img/asish.jpg" style="width:17%">
+          <img src=" img/susanjeet.jpg" style="width:17%">
+          <img src=" img/deba.jpg" style="width:17%">
+        </div>
+
+        <div class="mySlides">
+          <img src=" img/swastikkhuntia.jpg" style="width:17%">
+          <img src=" img/gunjan.jpg" style="width:17%">
+          <img src=" img/sobhitp.jpg" style="width:17%">
+          <img src=" img/satyam.jpg" style="width:17%">
+          <img src=" img/prajojita.jpg" style="width:17%">
+        </div>
+
+        <div class="mySlides">
+          <img src=" img/anisha.jpg" style="width:17%">
+          <img src=" img/anwesa.jpeg" style="width:17%">
+          <img src=" img/suvam.jpg" style="width:17%">
+          <img src=" img/animesh.jpg" style="width:17%">
+          <img src=" img/soumyapriya.jpg" style="width:17%">
+        </div>
+
+        <div class="mySlides">
+          <img src=" img/silla.jpg" style="width:17%">
+          <img src=" img/saheen.jpg" style="width:17%">
+          <img src=" img/jogesh.jpg" style="width:17%">
+          <img src=" img/siddhant.jpg" style="width:17%">
+          <img src=" img/sambit.jpg" style="width:17%">
+        </div>
+
+        
+          
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+      </div>
+
+</div>
+
+
+
+        </section>
+
+
+        <!------------------------FAQs--------------------->
+
+        <section>
+          <h2 id="faq-title" class="title-heading">FAQs</h2>
+            <div class="faq-box">
+              <div id="faq-description" class="col-sm-16 col-md-8">
+                <h6>Why SPECTRUM ?</h6>
+                <p>CETIANS those who want to do things out of the books, SPECTRUM is the right place for you. Here we have friendly mentors to guide you in every part of your project. Joining us will make you different from others in CET.</p>
+
+                <h6>How to join SPECTRUM ?</h6>
+                <p>SPECTRUM conducts every year its Induction process to recruit new members. Induction Generally occurs in the year of August. Keep an eye on the website for the induction dates. Join the induction process and mentors will conduct tests to recruit you.</p>
+
+                <h6>Where and when to join ?</h6>
+                <p>SPECTRUM has its own workspace to work on, mark the room no 403. We have all hardware components to start your projects, uninterrupted internet for surfing and a peace environment for designers to think and create. SPECTRUM is open 24/7 and there is no fixed working hour.</p>
+              </div>
+              
+              <div class="col-sm-14 col-md-4"><img src="img/FAQ.png" alt=""></div>
+            </div>
+
+        </section>
+
+         <!-- Site footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+          <div class="row">
+            <div class="col-sm-10 col-md-4">
+              <h6>SPECTRUM</h6>
+              <p class="text-justify">SPECTRUM a place for all technical enthusiasts to learn, discover and innovate new things in the field of Technology and Design.</p>
+            </div>
+  
+            <div class="col-xs-6 col-md-2">
+              <h6>WINGS</h6>
+              <p>Hardware</p>
+              <p>Software</p>
+              <p>Design</p>
+            </div>
+  
+            <div class="col-xs-6 col-md-2">
+              <h6>Quick Links</h6>
+              <ul class="footer-links">
+                <li><a href="#about-us-title">About Us</a></li>
+                <li><a href="#achievements-title">Achievements</a></li>
+                <li><a href="#events-title">Events</a></li>
+                <li><a href="#projects-title">Projects</a></li>
+                <li><a href="#blogs-title">Blogs</a></li>
+                <li><a href="#faq-title">FAQs</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-10 col-md-3">
+          <h6>CONTACTS</h6>
+          <p><i class="fa-solid fa-school"></i>College Of Engineering And Technology, Ghatikia, Bhubaneswar - 751003</p>
+          <p>Software</p>
+          <p>Design</p>
+        </div>
+          </div>
+          <hr>
+        </div>
+        <div class="copy">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <p class="copyright-text">&copy  <a href="#">spectrumcet.com</a> 
+              </p>
+              <p>Designed by Navneet Gupta (Spectrum)</p>
+            </div>
+          </div>
+        </div>     
+  </footer>
+
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+    </script>
+
+  </body>
+  </html>
+    
+
+    
