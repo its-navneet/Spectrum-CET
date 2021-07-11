@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register_style.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Anonymous Pro' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>Register</title>
+</head>
+<body>
+  <div class="header">
+    <a href="index.html"><div class="logo-heading-box">
+      <img src="img/spectrum.png" alt="Spectrum Logo" id="spectrum-logo">
+      <h1>Spectrum</h1>
+    </div>
+    </a>
+
+    <div class="registration_description_box">
+      <p class="registration_description">SPECTRUM a place for all technical enthusiasts to learn, discover and innovate new things in the field of Technology and Design.</p>
+    </div>
+
+    <div >
+      <img src="img/register_image.png" alt="" class="register_image" style="position: relative; width: 310px; height: 310px; left: 60px;">
+    </div>
+
+    <div>
+      <p class="login_description"> Already Registered?  <a href="login.html"><button class="login_btn">Log In</button> </a></p>
+    </div>
+  </div>
+
+
+  <div class="form" >
+    <div class="title">Welcome</div>
+    <div class="subtitle">Let's create your account!</div>
+    <form action="" method="post">
+      <div class="input-container ic1">
+        <input id="username" class="input" type="text" name="username" placeholder=" " required >
+        <div class="cut"></div>
+        <label for="username" class="placeholder">User name</label>
+      </div>
+      <div class="input-container ic2">
+        <input id="mobile" class="input" type="tel" name="mobile" pattern="[0-9]{10}" placeholder=" "  required >
+        <div class="cut"></div>
+        <label for="mobile" class="placeholder">Mobile</label>
+      </div>
+      <div class="input-container ic3">
+        <input id="email" class="input" type="text" name="email" placeholder=" " required>
+        <div class="cut cut-short"></div>
+        <label for="email" class="placeholder">Email </label>
+      </div>
+
+      <div class="input-container ic4">
+        <div class="input-container div1">
+        
+        
+        <select name="branch" id="branch" class="input" placeholder=" " >
+          <option value="0" id="branch_label">--Branch--</option>
+          <option value="1">Biotechnology</option>
+          <option value="2">Civil Engineering</option>
+          <option value="3">Computer Science & Engineering</option>
+          <option value="4">Chemistry</option>
+          <option value="5">Electrical Engineering</option>
+          <option value="6">Fashion & Apparel Technology</option>
+          <option value="7">Instrumentation & Electronics</option>
+          <option value="8">Mathematics & Humanities</option>
+          <option value="9">Physics</option>
+          <option value="10">Planning</option>
+          <option value="11">Textile Engineering</option>
+          
+
+        </select>
+      </div>
+      <div class="input-container div2">
+        
+        <select name="year" id="year" class="input" placeholder=" ">
+          <option value="0" id="year_label">--Year--</option>
+          <option value="1">1st</option>
+          <option value="2">2nd</option>
+          <option value="3">3rd</option>
+          <option value="4">4th</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="input-container ic5">
+        
+        <select name="domain" id="domain" class="input" placeholder=" ">
+          <option value="" id="domain_label">--Domain--</option>
+          <option value="" >Hardware</option>
+          <option value="">Software</option>
+          <option value="">Design</option>
+      
+          </select>
+      </div>
+
+      <div class="input-container ic6">
+        <input id="inputPassword4" class="input" type="password" name="password" placeholder=" "  required>
+        <div class="cut"></div>
+        <label for="inputPassword4" class="placeholder">Password</label>
+      </div>
+
+      <div class="input-container ic7">
+        <input id="inputPassword" class="input" type="password" name="confirm_password" placeholder=" " required>
+        <div class="cut"></div>
+        <label for="inputPassword4" class="placeholder">Confirm Password</label>
+      </div>
+
+      <button type="submit" class="submit" name="submit">Sign Up</button>
+    </div>
+  </form>
+
+    
+  </div>
+
+   
+  </body>
+</html>
